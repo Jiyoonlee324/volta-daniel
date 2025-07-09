@@ -6,10 +6,6 @@ st.title("🔋 전기화학 전지 시각화 (교과서 그림 + 직접 제작 �
 
 cell_type = st.radio("전지 종류를 선택하세요:", ["다니엘 전지", "볼타 전지"])
 
-if cell_type == "다니엘 전지":
-    st.image("images/daniel_cell.png", caption="다니엘 전지 (교과서 그림)")
-else:
-    st.image("images/volta_cell.png", caption="볼타 전지 (교과서 그림)")
 
 def draw_cell_diagram(cell_type):
     fig, ax = plt.subplots(figsize=(8,5))
