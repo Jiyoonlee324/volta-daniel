@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-st.title("🔋 전기화학 전지 시각화 (화학2 화학 전지의 원리)")
+st.title("🔋 전기화학 전지 시각화 (화학Ⅱ 화학 전지의 원리)")
 
 # 전지 선택
 cell_type = st.radio("전지 종류를 선택하세요:", ["다니엘 전지", "볼타 전지"])
