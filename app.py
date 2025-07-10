@@ -132,8 +132,8 @@ def draw_custom_cell(anode, cathode):
     ax.text(5,3.7,"electron flow", fontsize=10, color='blue')
 
     # 간단한 반응식
-    ax.text(1,0.5,f"{anode} → {anode}²⁺ + e⁻", fontsize=10)
-    ax.text(6.5,0.5,f"{cathode}²⁺ + e⁻ → {cathode}", fontsize=10)
+    ax.text(1,0.5,f"{anode} → {anode}²⁺ + 2e⁻", fontsize=10)
+    ax.text(6.5,0.5,f"{cathode}²⁺ + 2e⁻ → {cathode}", fontsize=10)
 
     return fig
 
